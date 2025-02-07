@@ -28,10 +28,8 @@ import unicorn from 'src/assets/unicorn.svg'
     }
 
     connectedCallback() {
-      console.log('DrawingPad component connected to the DOM')
+      let hueValue = 0
       const sketch = (p: P5Instance) => {
-        // const BACKGROUND = '#fff'
-
         const width = window.innerWidth
         const height = window.innerHeight
 
@@ -42,15 +40,20 @@ import unicorn from 'src/assets/unicorn.svg'
         p.setup = () => {
           const canvas = p.createCanvas(width, height)
           canvas.parent(this)
-          // p.background(BACKGROUND)
           canvas.style('z-index', '-1')
-        }
+          p.colorMode(p.HSB, 360, 255, 255)
 
-        p.draw = () => {
-          if (p.mouseIsPressed) {
-            p.line(p.pmouseX, p.pmouseY, p.mouseX, p.mouseY)
+          p.draw = () => {
+            if (p.mouseIsPressed) {
+              p.line(p.pmouseX, p.pmouseY, p.mouseX, p.mouseY)
+              p.stroke(p.color(hueValue, 150, 255, 70))
+              p.strokeWeight(3)
+              hueValue += 1
+              if (hueValue > 360) hueValue = 0
+            }
           }
         }
+
         p.keyPressed = () => {
           p.clear()
         }

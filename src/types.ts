@@ -483,7 +483,7 @@ export interface Ui {
 }
 
 /* FEATURES */
-export type BgType = 'plum' | 'dot' | 'rose' | 'particle' | 'robot'
+export type BgType = 'plum' | 'dot' | 'rose' | 'particle' | 'unicorn'
 type Mentioned = `@${string}` | `@${string}@${string}` | ''
 type FeatureConfig<T> = false | [boolean, T]
 export type HeadingLevel = 1 | 2 | 3 | 4 | 5 | 6

@@ -3,7 +3,7 @@ import Plum from '~/components/backgrounds/Plum.astro'
 import Dot from '~/components/backgrounds/Dot.astro'
 import Rose from '~/components/backgrounds/Rose.astro'
 import Particle from '~/components/backgrounds/Particle.astro'
-import Robot from '~/components/backgrounds/Robot.astro'
+import Unicorn from '~/components/backgrounds/Unicorn.astro'
 
 interface Props {
   type: string
@@ -16,4 +16,4 @@ const { type } = Astro.props
 {type === 'dot' && <Dot />}
 {type === 'rose' && <Rose />}
 {type === 'particle' && <Particle />}
-{type === 'robot' && <Robot />}
+{type === 'unicorn' && <Unicorn />}
