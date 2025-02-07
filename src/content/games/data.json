@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../.astro/collections/games.schema.json",
+  "streams": [
+    {
+      "title": "Music Lab",
+      "pubDate": "2025-02-07",
+      "link": "https://studio.code.org/s/music-jam-2024/lessons/1/levels/1",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Playground Reine des neiges",
+      "pubDate": "2025-02-07",
+      "link": "https://studio.code.org/s/frozen/lessons/1/levels/1",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Playground Minecraft",
+      "pubDate": "2025-02-07",
+      "link": "https://code.org/minecraft",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Twine, histoires interactives à programmer",
+      "pubDate": "2025-02-07",
+      "link": "https://twinery.org/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Sonic Pi, coder de la musique",
+      "pubDate": "2025-02-07",
+      "link": "https://sonic-pi.net/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Lightbot (jeu mobile)",
+      "pubDate": "2025-02-07",
+      "link": "https://lightbot.com/",
+      "video": false,
+      "platform": "Android, ios"
+    },
+    {
+      "title": "Makey Makey",
+      "pubDate": "2025-02-07",
+      "link": "https://makeymakey.com/",
+      "video": false,
+      "platform": "Makey Makey"
+    },
+    {
+      "title": "Console Kitco en kit",
+      "pubDate": "2025-02-07",
+      "link": "https://kitco.fr/",
+      "video": false,
+      "platform": "Kitco"
+    },
+    {
+      "title": "Erase all kitten (en Anglais, 5€)",
+      "pubDate": "2025-02-07",
+      "link": "https://eraseallkittens.com/",
+      "video": false,
+      "platform": "Web"
+    }
+  ]
+}

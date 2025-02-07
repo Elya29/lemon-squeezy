@@ -5,7 +5,7 @@ const currentYear = new Date().getFullYear()
 const copyrightText = `© ${currentYear} ${SITE.author}`
 ---
 
-<article id="wrap">
+<footer id="wrap">
   <article id="lightings">
     <section id="one">
       <section id="two">
@@ -17,11 +17,11 @@ const copyrightText = `© ${currentYear} ${SITE.author}`
       </section>
     </section>
   </article>
-  <footer class="slide-enter animate-delay-1600! px-7 mt-auto mb-8">
-    <div class="prose mx-auto op-50">
-      <div class="flex lt-sm:flex-col items-center text-sm whitespace-nowrap">
-        <span>{copyrightText}</span>
-      </div>
+  <div
+    class="prose mx-auto opacity-50 fixed bottom-8 left-1/2 -translate-x-1/2"
+  >
+    <div class="flex lt-sm:flex-col items-center text-sm whitespace-nowrap">
+      <span>{copyrightText}</span>
     </div>
-  </footer>
-</article>
+  </div>
+</footer>

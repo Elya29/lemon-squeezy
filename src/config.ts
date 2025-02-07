@@ -6,31 +6,31 @@ export const SITE: Site = {
   title: 'Lemon Squeezy',
   description: 'La programmation pour les enfants',
   author: 'Alex Palma',
-  lang: 'en',
-  ogLocale: 'en_US',
+  lang: 'fr',
+  ogLocale: 'fr_FR',
 }
 
 export const UI: Ui = {
   internalNavs: [
     {
-      path: '/blog',
+      path: '/',
       title: 'Blog',
       displayMode: 'alwaysText',
       text: 'Blog',
     },
     {
       path: '/streams',
-      title: 'Streams',
+      title: 'Ressources',
       displayMode: 'alwaysText',
-      text: 'Streams',
+      text: 'Ressources',
     },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
+      link: 'https://github.com/Elya29',
       title: 'Alex sur Github',
       displayMode: 'alwaysIcon',
-      icon: 'i-uil-linkedin-alt',
+      icon: 'i-uil-github-alt',
     },
   ],
   navBarLayout: {
@@ -45,8 +45,9 @@ export const UI: Ui = {
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
-    { title: 'AstroStreams', path: '/streams' },
-    { title: 'AstroBlog', path: '/feeds' },
+    { title: 'Vidéos', path: '/streams' },
+    { title: 'Jeux', path: '/games' },
+    { title: 'Articles', path: '/feeds' },
   ],
   groupView: {
     maxGroupColumns: 3,

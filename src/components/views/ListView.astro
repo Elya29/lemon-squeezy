@@ -23,7 +23,7 @@ interface Props {
 }
 
 const { collectionType, pageToc } = Astro.props
-const validCollectionType = ['blog', 'changelog', 'streams', 'feeds']
+const validCollectionType = ['blog', 'streams', 'games', 'feeds']
 
 /* Toc */
 const { toc } = FEATURES
@@ -34,7 +34,7 @@ let years: string[] = []
 let blogItems: CollectionEntry<ContentCollectionKey>[]
 let sortedBlogItems: CollectionEntry<ContentCollectionKey>[] = []
 
-if (collectionType === 'blog' || collectionType === 'changelog') {
+if (collectionType === 'blog') {
   blogItems = await getFilteredPosts(collectionType)
   sortedBlogItems = getSortedPosts(blogItems)
 
@@ -76,6 +76,31 @@ if (collectionType === 'streams') {
   }
 }
 
+/** Games */
+let gamesItems: StreamGroupsSchema
+let sortedGamesItems: StreamGroupsSchema = []
+
+if (collectionType === 'games') {
+  const gamesData = await getEntry(collectionType, 'data')
+  gamesItems = gamesData.data.streams
+
+  sortedGamesItems = gamesItems.sort(
+    (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
+  )
+
+  if (tocEnabled) {
+    const yearsSet = new Set<number>()
+    sortedGamesItems.forEach((item) => {
+      const year = getYear(item.pubDate)
+      yearsSet.add(year)
+    })
+
+    years = Array.from(yearsSet)
+      .sort((a, b) => b - a)
+      .map((year) => year.toString())
+  }
+}
+
 /* Feeds */
 let feedItems: CollectionEntry<'feeds'>[]
 let sortedFeedItems: CollectionEntry<'feeds'>[] = []
@@ -105,7 +130,7 @@ if (collectionType === 'feeds') {
 
 /* Exception */
 const warningHTML = `The '${collectionType}' collection type does not
-  belong to the built-in types 'blog', 'feeds', or 'streams'. You may
+  belong to the built-in types 'blog', 'feeds', 'games' or 'streams'. You may
   need to modify the <code>ListView.astro</code> logic for your defined
   collection types to render the list.`
 ---
@@ -168,6 +193,41 @@ const warningHTML = `The '${collectionType}' collection type does not
               {!isSameYear(
                 item.pubDate,
                 sortedStreamItems[idx - 1]?.pubDate
+              ) && (
+                <Categorizer
+                  {idx}
+                  needId={tocEnabled}
+                  text={getYear(item.pubDate).toString()}
+                />
+              )}
+              <ListItem
+                {idx}
+                {collectionType}
+                redirect={item.link}
+                title={item.title}
+                video={item.video}
+                radio={item.radio}
+                date={item.pubDate}
+                platform={item.platform}
+              />
+            </>
+          )
+        })
+      )}
+    </div>
+  )
+}{
+  collectionType === 'games' && (
+    <div aria-label="Games list">
+      {sortedGamesItems.length === 0 ? (
+        <div class="py-2 op-50">nothing here yet</div>
+      ) : (
+        sortedGamesItems.map((item, idx) => {
+          return (
+            <>
+              {!isSameYear(
+                item.pubDate,
+                sortedGamesItems[idx - 1]?.pubDate
               ) && (
                 <Categorizer
                   {idx}
