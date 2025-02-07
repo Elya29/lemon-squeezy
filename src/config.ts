@@ -1,12 +1,11 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://lemon-squeezy.com',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
-  description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+  title: 'Lemon Squeezy',
+  description: 'La programmation pour les enfants',
+  author: 'Alex Palma',
   lang: 'en',
   ogLocale: 'en_US',
 }
@@ -20,31 +19,18 @@ export const UI: Ui = {
       text: 'Blog',
     },
     {
-      path: '/projects',
-      title: 'Projects',
+      path: '/streams',
+      title: 'Streams',
       displayMode: 'alwaysText',
-      text: 'Projects',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
+      text: 'Streams',
     },
   ],
   socialLinks: [
     {
       link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      title: 'Alex sur Github',
       displayMode: 'alwaysIcon',
-      icon: 'i-uil-github-alt',
-    },
-    {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
+      icon: 'i-uil-linkedin-alt',
     },
   ],
   navBarLayout: {
@@ -59,20 +45,15 @@ export const UI: Ui = {
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
-    { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
     { title: 'AstroStreams', path: '/streams' },
+    { title: 'AstroBlog', path: '/feeds' },
   ],
   groupView: {
     maxGroupColumns: 3,
     showGroupItemColorOnHover: true,
   },
   githubView: {
-    monorepos: [
-      'withastro/astro',
-      'withastro/starlight',
-      'lin-stephanie/astro-loaders',
-    ],
+    monorepos: ['withastro/astro', 'withastro/starlight'],
     mainLogoOverrides: [
       [/starlight/, 'https://starlight.astro.build/favicon.svg'],
     ],
@@ -84,8 +65,8 @@ export const UI: Ui = {
     ],
   },
   externalLink: {
-    newTab: false,
-    cursorType: '',
+    newTab: true,
+    cursorType: 'pointer',
     showNewTabIcon: false,
   },
 }
@@ -99,8 +80,8 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      bluesky: [true, '@ste7lin.bsky.social'],
+      twitter: false,
+      bluesky: false,
       mastodon: false,
       facebook: false,
       pinterest: false,

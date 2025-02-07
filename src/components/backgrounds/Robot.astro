@@ -1,0 +1,72 @@
+---
+import unicorn from 'src/assets/unicorn.svg'
+---
+
+<div id="background" class="fixed bottom-0 right-0 w-auto h-auto print:hidden">
+  <drawing-pad
+    class="z--1 fixed top-0 bottom-0 left-0 right-0 print:hidden dark:invert select-none"
+  >
+  </drawing-pad>
+  <div
+    id="unicorn"
+    class="dark:invert fixed bottom-0 right-0 transform translate-x-1/8 translate-y-1/15 rotate-12 opacity-10 w-auto h-auto pointer-events-none print:hidden z-[-2] select-none"
+  >
+    <img src={unicorn.src} alt="" />
+  </div>
+</div>
+
+<script>
+  import p5 from 'p5'
+  import type { default as P5Instance } from 'p5'
+
+  class DrawingPad extends HTMLElement {
+    p5Instance: P5Instance | null
+
+    constructor() {
+      super()
+      this.p5Instance = null
+    }
+
+    connectedCallback() {
+      console.log('DrawingPad component connected to the DOM')
+      const sketch = (p: P5Instance) => {
+        // const BACKGROUND = '#fff'
+
+        const width = window.innerWidth
+        const height = window.innerHeight
+
+        p.windowResized = function () {
+          p.resizeCanvas(width, height)
+        }
+
+        p.setup = () => {
+          const canvas = p.createCanvas(width, height)
+          canvas.parent(this)
+          // p.background(BACKGROUND)
+          canvas.style('z-index', '-1')
+        }
+
+        p.draw = () => {
+          if (p.mouseIsPressed) {
+            p.line(p.pmouseX, p.pmouseY, p.mouseX, p.mouseY)
+          }
+        }
+        p.keyPressed = () => {
+          p.clear()
+        }
+      }
+
+      this.p5Instance = new p5(sketch, this)
+    }
+
+    // after switching pages, stop the animation loop
+    disconnectedCallback() {
+      if (this.p5Instance) {
+        this.p5Instance.remove()
+        this.p5Instance = null
+      }
+    }
+  }
+
+  customElements.define('drawing-pad', DrawingPad)
+</script>
