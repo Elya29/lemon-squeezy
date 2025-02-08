@@ -1,9 +1,8 @@
 ---
 title: Hello World
 description: Premier article
-pubDate: 2025-01-04
-lastModDate: 2025-01-27
-toc: true
+pubDate: 2025-02-07
+toc: false
 share: false
 ogImage: true
 ---

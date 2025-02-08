@@ -27,6 +27,7 @@ const lastModDate =
   frontmatter.lastModDate && frontmatter.lastModDate.toISOString()
 const minutesRead =
   frontmatter.minutesRead || remarkPluginFrontmatter.minutesRead
+const level = frontmatter.level
 
 /* Exception */
 const warningHTML = `This is a draft post that will not be published
@@ -49,15 +50,32 @@ frontmatter to <code>false</code> or remove it to publish the post.`
     <Fragment slot="head">
       {
         frontmatter.pubDate && (
-          <p class="mt--6! op-50">
-            <time datetime={pubDate}>{formatDate(pubDate)}</time>
-            {minutesRead !== 0 && <span>· {minutesRead} min</span>}
-            {lastModDate && (
-              <time datetime={lastModDate}>
-                | Updated: {formatDate(lastModDate)}
-              </time>
+          <>
+            <p class="mt--6! op-50">
+              <time datetime={pubDate}>{formatDate(pubDate)}</time>
+              {minutesRead !== 0 && (
+                <span>· Temps de lecture: {minutesRead} min</span>
+              )}
+              {lastModDate && (
+                <time datetime={lastModDate}>
+                  | Mis à jour: {formatDate(lastModDate)}
+                </time>
+              )}
+            </p>
+            <br />
+            {level && (
+              <div class="mt--6! op-50">
+                <span class="mr-2">Difficulté:</span>
+                {Array.from({ length: 5 }, (_, index) => (
+                  <span
+                    class={`text-xl ${index < level ? 'text-yellow-500' : 'text-gray-400'} inline-block`}
+                  >
+                    {index < level ? '★' : '☆'}
+                  </span>
+                ))}
+              </div>
             )}
-          </p>
+          </>
         )
       }
       {frontmatter.draft && <Warning rawHTMLString={warningHTML} />}

@@ -129,6 +129,14 @@ export const postSchema = z.object({
     .describe(
       'Marks the post as a draft. If `true`, it is only visible in development and excluded from production builds.'
     ),
+  level: z
+    .number()
+    .min(1)
+    .max(5)
+    .optional()
+    .describe(
+      'Adjust the technical level of the current post. It will display the level as stars on the post'
+    ),
 })
 
 export type PostSchema = z.infer<typeof postSchema>
