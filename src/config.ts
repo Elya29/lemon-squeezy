@@ -1,7 +1,7 @@
 import type { Site, Ui, Features, Url } from './types'
 
 export const SITE: Site = {
-  website: 'https://lemon-squeezy.com',
+  website: 'https://elya29.github.io',
   base: '/',
   title: 'Lemon Squeezy',
   description: 'La programmation pour les enfants',
