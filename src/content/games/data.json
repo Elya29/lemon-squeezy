@@ -44,6 +44,20 @@
       "platform": "Android, ios"
     },
     {
+      "title": "Scratch",
+      "pubDate": "2025-02-07",
+      "link": "https://scratch.mit.edu/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Scratch junior",
+      "pubDate": "2025-02-07",
+      "link": "https://www.scratchjr.org/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
       "title": "Makey Makey",
       "pubDate": "2025-02-07",
       "link": "https://makeymakey.com/",
@@ -61,6 +75,34 @@
       "title": "Erase all kitten (en Anglais, 5€)",
       "pubDate": "2025-02-07",
       "link": "https://eraseallkittens.com/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Stencyl (coder des apps mobiles en blocs)",
+      "pubDate": "2025-02-07",
+      "link": "https://www.stencyl.com/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Khan Academy (cours ludiques gratuits)",
+      "pubDate": "2025-02-07",
+      "link": "https://fr.khanacademy.org/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "App Inventor",
+      "pubDate": "2025-02-07",
+      "link": "http://www.appinventor.org/",
+      "video": false,
+      "platform": "Web"
+    },
+    {
+      "title": "Devoxx4Kids France, évenement annuel",
+      "pubDate": "2025-02-07",
+      "link": "https://www.devoxx4kids.org/france/",
       "video": false,
       "platform": "Web"
     }

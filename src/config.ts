@@ -47,7 +47,7 @@ export const UI: Ui = {
   tabbedLayoutTabs: [
     { title: 'Vidéos', path: '/streams' },
     { title: 'Jeux', path: '/games' },
-    { title: 'Articles', path: '/feeds' },
+    // { title: 'Articles', path: '/feeds' },
   ],
   groupView: {
     maxGroupColumns: 3,
