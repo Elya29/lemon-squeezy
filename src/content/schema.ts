@@ -137,6 +137,15 @@ export const postSchema = z.object({
     .describe(
       'Adjust the technical level of the current post. It will display the level as stars on the post'
     ),
+  bgType: z
+    .union([
+      z.literal(false),
+      z.enum(['plum', 'dot', 'rose', 'particle', 'unicorn']),
+    ])
+    .default(false)
+    .describe(
+      'Specifies whether to apply a background on this page and select its type. If not needed, delete the field or set to `false`.'
+    ),
 })
 
 export type PostSchema = z.infer<typeof postSchema>
