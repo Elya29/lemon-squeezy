@@ -4,7 +4,7 @@ description: Premier article
 pubDate: 2025-01-04
 lastModDate: 2025-01-27
 toc: true
-share: true
+share: false
 ogImage: true
 ---
 

@@ -5,7 +5,13 @@ const currentYear = new Date().getFullYear()
 const copyrightText = `© ${currentYear} ${SITE.author}`
 ---
 
-<footer id="wrap">
+<footer class="fixed bottom-0 left-0 w-full h-[200px] pointer-events-none">
+  <div
+    class="fixed bottom-0 left-0 w-full h-[200px] bg-gradient-to-t from-white via-white/80 to-transparent"
+  >
+    <div class="absolute bottom-0 w-full h-1/2 pointer-events-auto"></div>
+    <div class="absolute top-0 w-full h-1/2 pointer-events-none"></div>
+  </div>
   <article id="lightings">
     <section id="one">
       <section id="two">
