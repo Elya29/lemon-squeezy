@@ -1,7 +1,7 @@
 ---
-title: Les portes logiques (AND)
+title: Les portes logiques - AND
 description: comprendre les portes logiques en informatique
-pubDate: 2025-02-08
+pubDate: 2025-02-07
 toc: true
 share: false
 ogImage: true
@@ -45,11 +45,11 @@ C'est avec cette logique, qu'on appelle "logique combinatoire", que ton ordinate
 On continue ? Voici les 7 types de portes logiques de base :
 - AND (ET) dont on vient de parler ici.
 - [OR (OU)](/blog/porte-logique-or)
-- NOT (NON)
-- NAND
-- NOR
-- XOR (OU exclusif)
-- XNOR
+- [NOT (NON)](/blog/porte-logique-not)
+- NAND, à venir
+- NOR, à venir
+- XOR (OU exclusif), à venir
+- XNOR, à venir
 
 Tu peux cliquer sur leur nom pour découvrir les règles de chacune de ces portes.
 
