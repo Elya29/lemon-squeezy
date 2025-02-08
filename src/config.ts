@@ -1,4 +1,4 @@
-import type { Site, Ui, Features } from './types'
+import type { Site, Ui, Features, Url } from './types'
 
 export const SITE: Site = {
   website: 'https://lemon-squeezy.com',
@@ -32,6 +32,12 @@ export const UI: Ui = {
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
+    {
+      link: 'mailto:elya29870@gmail.com' as unknown as Url,
+      title: 'Me contacter par email',
+      displayMode: 'alwaysIcon',
+      icon: 'i-material-symbols-alternate-email',
+    },
   ],
   navBarLayout: {
     left: [],
@@ -45,8 +51,8 @@ export const UI: Ui = {
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
-    { title: 'Vidéos', path: '/streams' },
     { title: 'Jeux', path: '/games' },
+    { title: 'Vidéos', path: '/streams' },
     // { title: 'Articles', path: '/feeds' },
   ],
   groupView: {

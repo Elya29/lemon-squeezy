@@ -114,6 +114,7 @@ export default defineConfig({
 
     /* remark-directive-sugar */
     'i-carbon-logo-github',
+    'i-material-symbols-alternate-email',
 
     /* BaseLayout */
     'focus:not-sr-only',

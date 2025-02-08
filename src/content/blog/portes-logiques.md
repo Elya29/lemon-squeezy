@@ -51,4 +51,6 @@ On continue ? Voici les 7 types de portes logiques de base :
 - XOR (OU exclusif)
 - XNOR
 
-Tu peux cliquer sur le nom pour découvrir les règles de chacune de ces portes.
+Tu peux cliquer sur leur nom pour découvrir les règles de chacune de ces portes.
+
+Pour aller plus loin, j'ai ajouté des vidéos dans les ressources (clique sur le lien "ressources" dans le menu, tout en haut du site), et notamment la vidéo de [Codeur Pro sur les portes logiques](https://www.youtube.com/watch?v=iTH39L2d7bg&list=PLLBWkn1N0gl7Bl20PnPx0unIsogGAb9TG&index=5), et [celle-ci, qui crée les portes logiques dans l'univers Minecraft](https://www.youtube.com/watch?v=Hr-RAeyppt0) (clique sur les liens pour voir les vidéos **seulement si tu as le droit d'utiliser Youtube**)
