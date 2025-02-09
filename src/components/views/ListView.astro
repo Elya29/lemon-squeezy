@@ -12,6 +12,7 @@ import {
   getAscendingPosts,
   getFilteredPosts,
   getSortedPosts,
+  groupByOrderedCategory,
 } from '~/utils/post'
 
 import type {
@@ -55,9 +56,18 @@ if (collectionType === 'blog') {
   }
 }
 
+let groupedPosts
 if (collectionType === 'parcours') {
   blogItems = await getFilteredPosts('blog')
   sortedBlogItems = getAscendingPosts(blogItems)
+  const categoryOrder = [
+    'informatique',
+    'programmation',
+    'langages',
+    'notes',
+    'challenges',
+  ]
+  groupedPosts = groupByOrderedCategory(sortedBlogItems, categoryOrder)
 
   if (tocEnabled) {
     const yearsSet = new Set<number>()
@@ -159,7 +169,50 @@ const warningHTML = `The '${collectionType}' collection type does not
 {tocEnabled && <Toc {years} />}
 
 {
-  (collectionType === 'blog' || collectionType === 'parcours') && (
+  collectionType === 'parcours' && (
+    <div aria-label="Post list">
+      {sortedBlogItems.length === 0 ? (
+        <div class="py-2 op-50">nothing here yet</div>
+      ) : (
+        groupedPosts &&
+        Object.entries(groupedPosts).map(([category, items], idx) => {
+          return (
+            <section class="h-auto">
+              <Categorizer {idx} needId={tocEnabled} text={category} />
+
+              {items.map(async (item) => {
+                const { data, slug } = item
+                const { remarkPluginFrontmatter } = await item.render()
+                const minutesRead =
+                  data.minutesRead || remarkPluginFrontmatter.minutesRead
+
+                return (
+                  <>
+                    <ListItem
+                      {idx}
+                      collectionType={collectionType}
+                      redirect={data.redirect}
+                      postSlug={slug}
+                      title={data.title}
+                      video={data.video}
+                      radio={data.radio}
+                      date={data.pubDate}
+                      minutesRead={minutesRead}
+                      platform={data.platform}
+                    />
+                  </>
+                )
+              })}
+            </section>
+          )
+        })
+      )}
+    </div>
+  )
+}
+
+{
+  collectionType === 'blog' && (
     <div aria-label="Post list">
       {sortedBlogItems.length === 0 ? (
         <div class="py-2 op-50">nothing here yet</div>
