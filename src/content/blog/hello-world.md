@@ -16,7 +16,7 @@ Pour construire ce site, je me suis inspirée d'une jeune amie de 6 ans et demi,
 
 # Pourquoi ça s'appelle Lemon Squeezy ?
 
-Parce que j'aime beaucoup l'expression Anglaise "Easy peasy lemon squeezy" qui veut dire en gros "ultra fastoche", ou "c'est trop face" comme dirait mon fils. Je trouve cette expression amusante, et en plus, ça veut dire que tu vas apprendre la programmation "les doigts dans le nez" (moarf, c'est dégoutant, j'espère que tu te lavera les mains avant de toucher la souris au moins !).
+Parce que j'aime beaucoup l'expression Anglaise "Easy peasy lemon squeezy" qui veut dire en gros "ultra fastoche", ou "c'est trop face" comme dirait mon fils. Je trouve cette expression amusante, et en plus, ça veut dire que tu vas apprendre la programmation "les doigts dans le nez" (berk, c'est dégoutant, j'espère que tu te lavera les mains avant de toucher la souris au moins !).
 
 # De quoi on va parler ?
 
@@ -41,3 +41,5 @@ Il y a aussi :
 - et surtout, il y a le lien vers les ressources, dans lesquels tu trouvera plein de jeux de programmation, quelques idées cadeau trop cool à mettre sur ta liste, et des vidéos qui expliquent certains sujets bien mieux que moi...
 
 J'espère que tu vas apprendre beaucoup de choses ici, et que ça te donnera envie de créer et d'explorer la programmation et l'informatique. Amuse-toi bien !
+
+[Commence ton aventure par ici, pour découvrir les portes logiques](/lemon-squeezy/parcours/porte-logique-and.md).

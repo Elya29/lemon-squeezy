@@ -31,3 +31,13 @@ Tu vois ? Ca inverse simplement ton entrée.
 Les portes logiques ne sont pas quelque chose que tu vois directement, mais elles sont partout dans les ordinateurs, les téléphones, et même dans des choses comme les jeux vidéo ! Chaque fois que tu appuies sur un bouton dans un jeu ou que tu utilises une application, des portes logiques aident l'ordinateur à savoir quoi faire.
 
 Elles travaillent très vite et font des calculs pour donner des réponses à toutes les décisions que l'ordinateur doit prendre, comme si tu devais choisir entre deux choses. Ces portes sont comme des petits cerveaux qui aident l'ordinateur à comprendre les situations et à donner les bonnes réponses.
+
+Voici les autres portes logiques de base :
+
+- [AND (ET)](/lemon-squeezy/parcours/porte-logique-and)
+- [OR (OU)](/lemon-squeezy/parcours/porte-logique-or)
+- NOT (NON) dont on vient de parler ici
+- NAND, à venir
+- NOR, à venir
+- XOR (OU exclusif), à venir
+- XNOR, à venir

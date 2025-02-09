@@ -62,9 +62,9 @@ Les portes logiques sont en réalité des circuits électroniques très simples 
 Dans le monde de la programmation, il existe des logiques très proches qui sont utilisées pour vérifier des conditions dans le code. Par exemple, quand tu veux qu'un utilisateur puisse accéder à ton site web seulement si son mot de passe est correct, tu pourrais utiliser une logique OR pour valider l'accès.
 
 On continue ? Voici les 7 types de portes logiques de base :
-- [AND (ET)](/blog/porte-logique-and) 
+- [AND (ET)](/lemon-squeezy/parcours/porte-logique-and) 
 - OR (OU), dont on vient de parler ici.
-- [NOT (NON)](/blog/porte-logique-not)
+- [NOT (NON)](/lemon-squeezy/parcours/porte-logique-not)
 - NAND, à venir
 - NOR, à venir
 - XOR (OU exclusif), à venir

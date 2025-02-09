@@ -44,8 +44,8 @@ C'est avec cette logique, qu'on appelle "logique combinatoire", que ton ordinate
 
 On continue ? Voici les 7 types de portes logiques de base :
 - AND (ET) dont on vient de parler ici.
-- [OR (OU)](/blog/porte-logique-or)
-- [NOT (NON)](/blog/porte-logique-not)
+- [OR (OU)](/lemon-squeezy/parcours/porte-logique-or)
+- [NOT (NON)](/lemon-squeezy/parcours/porte-logique-not)
 - NAND, à venir
 - NOR, à venir
 - XOR (OU exclusif), à venir
