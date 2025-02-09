@@ -1,7 +1,7 @@
 ---
 title: Les portes logiques - NOT
 description: comprendre les portes logiques en informatique
-pubDate: 2025-02-07
+pubDate: 2025-02-09
 toc: true
 share: false
 ogImage: true

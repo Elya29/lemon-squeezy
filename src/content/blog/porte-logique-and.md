@@ -29,7 +29,7 @@ Sur la première porte de notre chateau, il y a un panneau qui indique **"AND"**
 - Tu dois aussi avoir des carottes (si c'est ok, la seconde lumière s'allume : 1)
 
 Si ces deux choses sont vraies, alors tu vas pouvoir passer la porte de la cuisine.
-Si une seule ou les deux sont fausses (par exemple, s'il n'y avait plus de tomates ou si tu n'as pas trouvé de carottes), ton passeport n'est pas valide (0) et tu ne pourra passer la porte logique.
+Si une seule ou les deux sont fausses (par exemple, s'il n'y avait plus de tomates ou si tu n'as pas trouvé de carottes), ton passeport n'est pas valide (0) et tu ne pourra pas passer la porte logique.
 
 **Règle :** La porte ET dit "on entre dans les cuisines seulement **si ces deux choses sont vraies**".
 
