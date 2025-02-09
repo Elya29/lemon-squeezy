@@ -6,6 +6,7 @@ toc: true
 share: false
 ogImage: true
 level: 1
+category: informatique
 ---
 
 Bon, on commence a pas mal comprendre les règles du jeu, pas vrai ? 

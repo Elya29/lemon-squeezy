@@ -28,6 +28,7 @@ const lastModDate =
 const minutesRead =
   frontmatter.minutesRead || remarkPluginFrontmatter.minutesRead
 const level = frontmatter.level
+const category = frontmatter.category
 
 /* Exception */
 const warningHTML = `This is a draft post that will not be published
@@ -63,19 +64,22 @@ frontmatter to <code>false</code> or remove it to publish the post.`
                 </time>
               )}
             </p>
-            <br />
-            {level && (
-              <div class="mt--6! op-50">
-                <span class="mr-2">Difficulté:</span>
-                {Array.from({ length: 5 }, (_, index) => (
-                  <span
-                    class={`text-xl ${index < level ? 'text-yellow-500' : 'text-gray-400'} inline-block`}
-                  >
-                    {index < level ? '★' : '☆'}
-                  </span>
-                ))}
-              </div>
-            )}
+            <div class="mt--6! op-50">
+              {category && <span>Catégorie: {category}</span>}
+              <br />
+              {level && (
+                <>
+                  <span class="mr-2">Difficulté:</span>
+                  {Array.from({ length: 5 }, (_, index) => (
+                    <span
+                      class={`text-xl ${index < level ? 'text-yellow-500' : 'text-gray-400'} inline-block`}
+                    >
+                      {index < level ? '★' : '☆'}
+                    </span>
+                  ))}
+                </>
+              )}
+            </div>
           </>
         )
       }

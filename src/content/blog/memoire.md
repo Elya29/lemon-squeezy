@@ -6,6 +6,7 @@ toc: true
 share: false
 ogImage: true
 level: 1
+category: informatique
 ---
 
 As-tu une bonne mémoire ? Ton ordinateur, il en a plusieurs ! 

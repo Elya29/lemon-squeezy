@@ -6,6 +6,7 @@ toc: true
 share: false
 ogImage: true
 level: 1
+category: informatique
 ---
 
 Prêt à passer une nouvelle porte logique ? Tu te souviens de notre chateau ?

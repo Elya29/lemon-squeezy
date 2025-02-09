@@ -146,6 +146,21 @@ export const postSchema = z.object({
     .describe(
       'Specifies whether to apply a background on this page and select its type. If not needed, delete the field or set to `false`.'
     ),
+  category: z
+    .union([
+      z.literal(false),
+      z.enum([
+        'informatique',
+        'programmation',
+        'langages',
+        'notes',
+        'challenges',
+      ]),
+    ])
+    .default('notes')
+    .describe(
+      'Specifies the category of the post. It will be filtered by category in the "parcours". If not needed, delete the field or set to `false`.'
+    ),
 })
 
 export type PostSchema = z.infer<typeof postSchema>

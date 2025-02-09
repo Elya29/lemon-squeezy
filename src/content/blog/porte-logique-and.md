@@ -6,6 +6,7 @@ toc: true
 share: false
 ogImage: true
 level: 1
+category: informatique
 ---
 
 Pour commencer ton voyage dans le monde de l'informatique, je te propose de découvrir comment fonctionne ton ordinateur. Si tu aimes jouer à Minecraft, tu as peut être déjà entendu parler des portes logiques. Si ce n'est pas le cas, rassure-toi, je vais t'expliquer ce qui se cache derrière ce nom très mystérieux... et tu vas voir que c'est beaucoup plus simple que ça en a l'air !
