@@ -42,4 +42,4 @@ Il y a aussi :
 
 J'espère que tu vas apprendre beaucoup de choses ici, et que ça te donnera envie de créer et d'explorer la programmation et l'informatique. Amuse-toi bien !
 
-[Commence ton aventure par ici, pour découvrir les portes logiques](/lemon-squeezy/parcours/porte-logique-and.md).
+[Commence ton aventure par ici, pour découvrir les portes logiques](/lemon-squeezy/parcours/porte-logique-and).
