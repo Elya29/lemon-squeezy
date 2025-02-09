@@ -6,8 +6,6 @@
 [![playground][playground-badge]][playground-link]
 [![chat][chat-badge]][chat-link]
 
-![cover image](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/cover_2x.png)
-
 AntfuStyle is a customizable, feature-rich [Astro](https://astro.build/) theme for blog and portfolio creation, inspired by the minimalist style of [antfu.me](https://antfu.me/). I like this design and have recreated and expanded its functionality.
 
 ## Features
