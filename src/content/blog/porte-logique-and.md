@@ -15,13 +15,13 @@ Imaginons un grand chateau, avec plusieurs portes. A chaque porte, il y a un gar
 Chaque porte logique possède ses propres règles.
 
 
-# À quoi ça sert ?
+## À quoi ça sert ?
 
 Notre chateau, en réalité, c'est ton ordinateur. Ce ne sont pas "vraiment" des vraies portes, mais des composants électroniques qui servent à résoudre des problèmes et à prendre des décisions dans un ordinateur.
 
 Il y a plusieurs types de portes logiques. Je t'explique la première, et ensuite, je ferais un article différent pour chacune, car ce serait un peu trop long de tout lire d'un coup.
 
-## La porte ET (AND)
+### La porte ET (AND)
 
 Sur la première porte de notre chateau, il y a un panneau qui indique **"AND"**. Ca veut dire "ET" en Anglais, comme dans "de la vanille **ET** du chocolat" quand tu commandes une glace. Imaginons que tu veuilles livrer des légumes aux cuisines du chateau, mais pour pouvoir passer la porte logique de la cuisine, il y a deux conditions :
 
@@ -38,7 +38,7 @@ Si une seule ou les deux sont fausses (par exemple, s'il n'y avait plus de tomat
 
 Et voilà, tu connais les règles de ta première porte logique, félicitations !
 
-# La logique combinatoire
+## La logique combinatoire
 
 C'est avec cette logique, qu'on appelle "logique combinatoire", que ton ordinateur prend des décisions. "Combinatoire" c'est un mot un peu compliqué pour dire quelque chose de simple. Par exemple, si tu appuies sur le bouton A et le bouton B en même temps, ça peut allumer une lumière. Si tu n'appuies que sur un seul des boutons, la lumière ne s'allume pas. C'est ça la logique combinatoire : elle décide de ce qui se passe à partir de ce que tu fais maintenant, sans tenir compte de ce qui s'est passé avant. 
 

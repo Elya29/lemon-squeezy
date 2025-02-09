@@ -8,7 +8,7 @@ ogImage: true
 level: 1
 ---
 
-# Un interrupteur électronique
+## Un interrupteur électronique
 
 Un **transistor**, c'est un tout petit composant de ton ordinateur, qui agit comme un bouton qui allume, ou éteint. Il peut donc allumer ou éteindre un courant électrique, un peu comme un interrupteur pour la lumière de ta maison. Mais lui, il est super rapide et très petit ! Il est composé de matières qu'on appelle "semi conductrices", ça signifie qu'il laisse passer le courant électrique uniquement dans un sens. Dans notre histoire de chateau, il serait le gardien de la porte, celui qui décide si ton passeport est valide ou pas en fonction des règles qu'on lui a confiées.
 
@@ -25,7 +25,7 @@ Devine combien de transistors il y a dans ce minuscule petit boitier qui mesure 
 
 C'est avec ces puces que fonctionnent les ordinateurs, les téléphones et les consoles de jeu vidéo (et même les lave-vaisselles, de nos jours !)
 
-# Des 0 et des 1
+## Des 0 et des 1
 
 Si le transistor fonctionne comme un interrupteur qui allume ou éteint... tu reconnais bien là les 0 (éteint) et les 1 (allumé) dont nous avons parlé avec les portes logiques et ton passeport magique ! Et tu as bien raison, car c'est le language de ton ordinateur.
 
@@ -54,7 +54,7 @@ Regarde comment on écrit les chiffres de 1 à 10 en binaire :
 En base 10, on ajoute un chiffre quand on atteint 10 (9 → 10).
 En base 2, on ajoute un chiffre quand on atteint 1 (1 → 10).
 
-## Sport de doigts
+### Sport de doigts
 
 Compter en binaire, c'est comme compter sur les doigts, mais avec deux positions : plié (0) ou levé (1). Ca fait comme de la gym de doigt, non ?
 
@@ -68,7 +68,7 @@ Un bit, c'est comme une toute petite lumière qui peut être allumée ou éteint
 C'est la plus petite information qu'un ordinateur peut comprendre.
 Avec un seul bit, on peut donc dire oui ou non, vrai ou faux, on ou off.
 
-## Et mes transistors dans tout ça ?
+### Et mes transistors dans tout ça ?
 
 Un transistor permet de stocker ou de traiter un bit. Le bit, c'est la valeur (0 ou 1), le transistor, c'est ce qui va créer et manipuler le bit.
 

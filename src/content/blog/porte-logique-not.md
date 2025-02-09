@@ -11,7 +11,7 @@ level: 1
 Bon, on commence a pas mal comprendre les règles du jeu, pas vrai ? 
 Voyons quelle porte nous avons là, la porte **NOT**, soit "pas" ou "non" en Français, comme quand tu as pris une glace et que ta mère te dit "**non**, tu n'auras pas de glace avant de manger, remets ça de suite dans le congélateur".
 
-# Que fait la porte NOT
+## Que fait la porte NOT
 
 C'est pas compliqué, c'est non. Si tu as les clefs, tu ne passera pas, fais demi-tour. Si tu n'as pas les clefs, tu peux entrer. C'est bizarre hein ? Cette porte fait une inversion, tu t'approches avec ton passeport valide, la porte NOT le rend invalide. Et inversement, si tu t'approches avec ton passeport invalide, elle le rendra... valide ! Elle prend ce que tu lui donne, et elle fait tout l'inverse.
 
@@ -26,7 +26,7 @@ Voyons ce que ça donne avec notre petit tableau :
 
 Tu vois ? Ca inverse simplement ton entrée.
 
-# Où et comment ça fonctionne ?
+## Où et comment ça fonctionne ?
 
 Les portes logiques ne sont pas quelque chose que tu vois directement, mais elles sont partout dans les ordinateurs, les téléphones, et même dans des choses comme les jeux vidéo ! Chaque fois que tu appuies sur un bouton dans un jeu ou que tu utilises une application, des portes logiques aident l'ordinateur à savoir quoi faire.
 
