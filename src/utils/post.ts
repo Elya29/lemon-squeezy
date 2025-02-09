@@ -32,3 +32,11 @@ export function getSortedPosts(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   )
 }
+
+export function getAscendingPosts(
+  posts: CollectionEntry<ContentCollectionKey>[]
+): CollectionEntry<ContentCollectionKey>[] {
+  return posts.sort(
+    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+  )
+}

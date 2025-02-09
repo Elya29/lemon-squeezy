@@ -13,13 +13,13 @@ export const SITE: Site = {
 export const UI: Ui = {
   internalNavs: [
     {
-      path: '/',
-      title: 'Blog',
+      path: '/parcours',
+      title: 'Parcours',
       displayMode: 'alwaysText',
-      text: 'Blog',
+      text: 'Parcours',
     },
     {
-      path: '/streams',
+      path: '/games',
       title: 'Ressources',
       displayMode: 'alwaysText',
       text: 'Ressources',
