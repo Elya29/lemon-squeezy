@@ -33,6 +33,12 @@ export function getSortedPosts(
   )
 }
 
+/**
+ * Sorts an array of posts by their publication date in ascending order.
+ *
+ * @param {CollectionEntry<ContentCollectionKey>[]} posts - An array of posts to sort.
+ * @returns {CollectionEntry<ContentCollectionKey>[]} - The sorted array of posts.
+ */
 export function getAscendingPosts(
   posts: CollectionEntry<ContentCollectionKey>[]
 ): CollectionEntry<ContentCollectionKey>[] {
