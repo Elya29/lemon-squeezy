@@ -81,10 +81,18 @@ export const groupByCategory = (
   )
 }
 
+export const categoryOrder = [
+  'informatique',
+  'programmation',
+  'langages',
+  'notes',
+  'challenges',
+] as const
+export type Category = (typeof categoryOrder)[number]
+
 // group by category in a defined order, and sort by date within each category
 export const groupByOrderedCategory = (
-  posts: CollectionEntry<ContentCollectionKey>[],
-  categoryOrder: string[]
+  posts: CollectionEntry<ContentCollectionKey>[]
 ): Record<string, CollectionEntry<ContentCollectionKey>[]> => {
   const grouped = posts.reduce(
     (acc: Record<string, CollectionEntry<ContentCollectionKey>[]>, post) => {

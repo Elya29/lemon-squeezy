@@ -56,18 +56,12 @@ if (collectionType === 'blog') {
   }
 }
 
-let groupedPosts
+/* Posts */
+let groupedPosts: Record<string, CollectionEntry<ContentCollectionKey>[]> = {}
 if (collectionType === 'parcours') {
   blogItems = await getFilteredPosts('blog')
   sortedBlogItems = getAscendingPosts(blogItems)
-  const categoryOrder = [
-    'informatique',
-    'programmation',
-    'langages',
-    'notes',
-    'challenges',
-  ]
-  groupedPosts = groupByOrderedCategory(sortedBlogItems, categoryOrder)
+  groupedPosts = groupByOrderedCategory(sortedBlogItems)
 
   if (tocEnabled) {
     const yearsSet = new Set<number>()
@@ -168,11 +162,12 @@ const warningHTML = `The '${collectionType}' collection type does not
 
 {tocEnabled && <Toc {years} />}
 
+<!-- Parcours -->
 {
   collectionType === 'parcours' && (
     <div aria-label="Post list">
       {sortedBlogItems.length === 0 ? (
-        <div class="py-2 op-50">nothing here yet</div>
+        <div class="py-2 op-50">Il n'y a pas encore de post ici...</div>
       ) : (
         groupedPosts &&
         Object.entries(groupedPosts).map(([category, items], idx) => {
@@ -215,7 +210,7 @@ const warningHTML = `The '${collectionType}' collection type does not
   collectionType === 'blog' && (
     <div aria-label="Post list">
       {sortedBlogItems.length === 0 ? (
-        <div class="py-2 op-50">nothing here yet</div>
+        <div class="py-2 op-50">Il n'y a pas encore de post ici...</div>
       ) : (
         sortedBlogItems.map(async (item, idx) => {
           const { data, slug } = item
@@ -259,7 +254,7 @@ const warningHTML = `The '${collectionType}' collection type does not
   collectionType === 'streams' && (
     <div aria-label="Stream list">
       {sortedStreamItems.length === 0 ? (
-        <div class="py-2 op-50">nothing here yet</div>
+        <div class="py-2 op-50">Il n'y a pas encore de post ici...</div>
       ) : (
         sortedStreamItems.map((item, idx) => {
           return (
@@ -294,7 +289,7 @@ const warningHTML = `The '${collectionType}' collection type does not
   collectionType === 'games' && (
     <div aria-label="Games list">
       {sortedGamesItems.length === 0 ? (
-        <div class="py-2 op-50">nothing here yet</div>
+        <div class="py-2 op-50">Il n'y a pas encore de post ici...</div>
       ) : (
         sortedGamesItems.map((item, idx) => {
           return (
@@ -331,7 +326,7 @@ const warningHTML = `The '${collectionType}' collection type does not
   collectionType === 'feeds' && (
     <div aria-label="Feed list">
       {sortedFeedItems.length === 0 ? (
-        <div class="py-2 op-50">nothing here yet</div>
+        <div class="py-2 op-50">Il n'y a pas encore de post ici...</div>
       ) : (
         sortedFeedItems.map((item, idx) => {
           const { data } = item
