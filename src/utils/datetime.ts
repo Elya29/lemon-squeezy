@@ -1,5 +1,7 @@
 import dayjs from 'dayjs'
+import 'dayjs/locale/fr'
 
+dayjs.locale('fr')
 /**
  * Formats a given date into a human-readable string.
  */
@@ -7,9 +9,9 @@ export function formatDate(d: Date | string, showYear = true) {
   const date = dayjs(d)
 
   if (!showYear /* || date.year() === dayjs().year() */)
-    return date.format('MMM D')
+    return date.format('D MMMM')
 
-  return date.format('MMM D, YYYY')
+  return date.format('D MMMM YYYY')
 }
 
 /**
