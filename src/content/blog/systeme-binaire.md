@@ -74,4 +74,4 @@ Un transistor permet de stocker ou de traiter un bit. Le bit, c'est la valeur (0
 
 Les ordinateurs utilisent des **milliards de transistors** pour manipuler des bits et faire des calculs. Et le language de ton ordinateur, c'est donc le binaire !
 
-Mais rassure-toi, tu n'as pas besoin de savoir compter en binaire pour coder, heureusement. Sinon, ce serait drôlement long de fabriquer un site internet !! Maintenant que tu comprends un peu mieux comment fonctionne un ordinateur, on va pouvoir commencer à parler de programmation.
+Mais rassure-toi, tu n'as pas besoin de savoir compter en binaire pour coder, heureusement. Sinon, ce serait drôlement long de fabriquer un site internet !!
