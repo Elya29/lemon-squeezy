@@ -8,7 +8,7 @@ ogImage: true
 bgType: unicorn
 ---
 
-Bienvenue sur ce petit site tout neuf ! Je m'appelle Alex, je suis développeuse, c'est mon métier. Ca veut dire que je fais du code pour fabriquer des sites web et des applications. J'ai créé ce blog pour répondre aux dix mille questions de mon petit garçon de 9 ans sur le code. Il devrait donc aussi répondre aux questions de tous les enfants qui voudraient apprendre l'informatique et la programmation. As-tu envie d'apprendre à programmer ton propre site internet, ou ton jeu vidéo ? Je vais essayer de te guider.
+Bienvenue ! Je m'appelle Alex, je suis développeuse, c'est mon métier. Ca veut dire que je fais du code pour fabriquer des sites web et des applications. J'ai créé ce blog pour répondre aux dix mille questions de mon petit garçon de 9 ans sur le code. Il devrait donc aussi répondre aux questions de tous les enfants qui voudraient apprendre l'informatique et la programmation. As-tu envie d'apprendre à programmer ton propre site internet, ou ton jeu vidéo ? Je vais essayer de te guider.
 
 ## La programmation, c'est pour tout le monde !
 
