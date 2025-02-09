@@ -35,7 +35,10 @@ const {
   <Link
     u-flex="~ items-center lt-md:(col items-start) gap-2"
     class="border-b-none! mb-6 mt-2 op-transition!"
-    href={redirect ?? getUrl(`/${collectionType}/${postSlug}/`)}
+    href={redirect ??
+      getUrl(
+        `/${collectionType === 'blog' ? 'parcours' : collectionType}/${postSlug}/`
+      )}
     external={redirect ? true : false}
     enableNewTabWarning={redirect ? true : false}
   >
