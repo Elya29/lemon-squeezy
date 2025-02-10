@@ -14,8 +14,8 @@ Prêt à passer une nouvelle porte logique ? Tu te souviens de notre chateau ?
 ## Souvenons-nous des règles du jeu...
 
 Cette fois-ci, tu t'approches de la porte OR. Ca veut dire "OU" en Anglais, comment dans "tu veux du gateau **OU** de la glace ?", tu dois choisir, tu n'aura pas les deux. Souviens-toi aussi de ton passeport magique, et que :
-- 1 = la lumière est allumée 
-- 0 = la lumière est éteinte. 
+- 1 = la lumière est allumée 💡
+- 0 = la lumière est éteinte ❌
 
 Ici, on aura deux lumières, qui sont ce qu'on appelle les entrées, en Anglais les "inputs". Dans la porte OR, il faut qu'une seule des deux lumières soit allumée pour ton passeport soit valide.
 
