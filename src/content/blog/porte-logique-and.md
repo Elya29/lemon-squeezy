@@ -15,6 +15,7 @@ Imaginons un grand chateau, avec plusieurs portes. A chaque porte, il y a un gar
 
 Chaque porte logique possède ses propres règles.
 
+![](../../assets/porte-logique-and/chateau.webp)
 
 ## À quoi ça sert ?
 
@@ -22,12 +23,12 @@ Notre chateau, en réalité, c'est ton ordinateur. Ce ne sont pas "vraiment" des
 
 Il y a plusieurs types de portes logiques. Je t'explique la première, et ensuite, je ferais un article différent pour chacune, car ce serait un peu trop long de tout lire d'un coup.
 
-### La porte ET (AND)
+### La porte AND (ET)
 
 Sur la première porte de notre chateau, il y a un panneau qui indique **"AND"**. Ca veut dire "ET" en Anglais, comme dans "de la vanille **ET** du chocolat" quand tu commandes une glace. Imaginons que tu veuilles livrer des légumes aux cuisines du chateau, mais pour pouvoir passer la porte logique de la cuisine, il y a deux conditions :
 
-- Tu dois avoir des tomates bien mures (si c'est ok, la première lumière s'allume : 1)
-- Tu dois aussi avoir des carottes (si c'est ok, la seconde lumière s'allume : 1)
+- 🍅 Tu dois avoir des tomates bien mures (tu en as? la première lumière s'allume : 1)
+- 🥕 Tu dois aussi avoir des carottes (c'est ok? la seconde lumière s'allume : 1)
 
 Si ces deux choses sont vraies, alors tu vas pouvoir passer la porte de la cuisine.
 Si une seule ou les deux sont fausses (par exemple, s'il n'y avait plus de tomates ou si tu n'as pas trouvé de carottes), ton passeport n'est pas valide (0) et tu ne pourra pas passer la porte logique.

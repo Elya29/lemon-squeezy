@@ -83,10 +83,10 @@ export const groupByCategory = (
 
 export const categoryOrder = [
   'informatique',
-  'programmation',
   'langages',
-  'notes',
+  'programmation',
   'challenges',
+  'notes',
 ] as const
 export type Category = (typeof categoryOrder)[number]
 

@@ -11,7 +11,7 @@ category: informatique
 
 As-tu une bonne mémoire ? Ton ordinateur, il en a plusieurs ! 
 
-## Plusieurs types de mémoire
+## Les différents types de mémoire
 
 Les principales sont les suivantes :
 
@@ -33,4 +33,4 @@ Certaines boites ne contiennent pas d'information, mais le numéro d'une autre b
 
 Donc les boites contiennent soit une **valeur** (exemple: "42"), soit un **pointeur** (exemple: "la boite numéro 8 contient la valeur que tu cherches"). C'est un peu comme si ton ordinateur faisait des chasses au trésor ! 🏴‍☠️
 
-Ca permet de relier des morceaux de mémoire entre eux, pour créer des structures complexes comme des listes ou des "arbres", et d’éviter de copier trop de données inutilement (si on a déjà l'information, on peut dire où elle est rangée plutôt que la stocker deux fois). Grâce à tout ceci, ton ordinateur peut travailler plus vite et plus efficacement, en utilisant sa mémoire de manière intelligente.
+Ca permet de relier des morceaux de mémoire entre eux, pour créer des structures plus compliquées comme des listes ou des "arbres". Ca nous évite aussi de copier trop de données inutilement (si on a déjà l'information, on peut dire où elle est rangée plutôt que la stocker deux fois). Grâce à tout ceci, ton ordinateur peut travailler plus vite et plus efficacement, en utilisant sa mémoire de manière intelligente.
