@@ -59,12 +59,11 @@ En base 2, on ajoute un chiffre quand on atteint 1 (1 → 10).
 
 Compter en binaire, c'est comme compter sur les doigts, mais avec deux positions : plié (0) ou levé (1). Ca fait comme de la gym de doigt, non ?
 
-En binaire, chaque doigt représente ce qu'on appelle un "**bit**". Donc avec trois doigts, tu peux déjà compter jusqu'à 7 (000 à 111), et avec dix doigts, tu peux aller jusqu'à 1023 !
+Avec seulement trois doigts, tu peux compter jusqu'à 7 (000 à 111), et avec dix doigts, tu peux aller jusqu'à 1023 !
+En binaire, chaque doigt représente ce qu'on appelle un "**bit**". Un bit, c'est comme une toute petite lumière qui peut être allumée ou éteinte 💡. Ce sont les petites lumières de ton passeport magique !
 
-Un bit, c'est comme une toute petite lumière qui peut être allumée ou éteinte 💡. Ce sont les petites lumières de ton passeport magique !
-
-0 → Éteint (pas de courant)
-1 → Allumé (courant qui passe)
+0 → Éteint (pas de courant ❌)
+1 → Allumé (courant qui passe 💡)
 
 C'est la plus petite information qu'un ordinateur peut comprendre.
 Avec un seul bit, on peut donc dire oui ou non, vrai ou faux, on ou off.
