@@ -280,7 +280,7 @@ input[type='search']::-webkit-search-cancel-button {
   font-size: 1.06em;
 }
 
-/* Footer Aurora animation by Amit Ashok Kamble */
+/* Footer Aurora animation based on the work of Amit Ashok Kamble */
 *
 {
 	padding: 0px;
@@ -310,17 +310,19 @@ section
 	width: 100%;
 	position: relative;
 	margin: auto;
-
+  will-change: box-shadow;
+  backface-visibility: hidden;
 }
 
 #one
 {
 	/*animation*/
-	-webkit-animation: one 5s ease-in-out infinite alternate;
-	-moz-animation: one 5s ease-in-out infinite alternate;
-	-ms-animation: one 5s ease-in-out infinite alternate;
-	-o-animation: one 5s ease-in-out infinite alternate;
-	animation: one 5s ease-in-out infinite alternate;
+	-webkit-animation: one 5s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-moz-animation: one 5s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-ms-animation: one 5s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-o-animation: one 5s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	animation: one 5s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation-fill-mode: both;
 }
 @-webkit-keyframes 
 one { from {
@@ -356,11 +358,12 @@ to {box-shadow: 0 0 100px 15px #F72A3B; }
 {
 	width: 90%;
 	/*animation*/
-	-webkit-animation: two 4s ease-in-out infinite alternate;
-	-moz-animation: two 4s ease-in-out infinite alternate;
-	-ms-animation: two 4s ease-in-out infinite alternate;
-	-o-animation: two 4s ease-in-out infinite alternate;
-	animation: two 4s ease-in-out infinite alternate;
+	-webkit-animation: two 4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-moz-animation: two 4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-ms-animation: two 4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-o-animation: two 4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	animation: two 4s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation-fill-mode: both;
 }
 @-webkit-keyframes 
 two { from {
@@ -396,11 +399,12 @@ to { box-shadow: 0 0 100px 15px #D8F05E; }
 {
 	width: 80%;
 	/*animation*/
-	-webkit-animation: three 3s ease-in-out infinite alternate;
-	-moz-animation: three 3s ease-in-out infinite alternate;
-	-ms-animation: three 3s ease-in-out infinite alternate;
-	-o-animation: three 3s ease-in-out infinite alternate;
-	animation: three 3s ease-in-out infinite alternate;
+	-webkit-animation: three 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-moz-animation: three 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-ms-animation: three 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-o-animation: three 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	animation: three 3s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation-fill-mode: both;
 }
 @-webkit-keyframes 
 three { from {
@@ -436,11 +440,12 @@ to { box-shadow: 0 0 100px 15px #3E33FF }
 {
 	width: 70%;
 	/*animation*/
-	-webkit-animation: four 2s ease-in-out infinite alternate;
-	-moz-animation: four 2s ease-in-out infinite alternate;
-	-ms-animation: four 2s ease-in-out infinite alternate;
-	-o-animation: four 2s ease-in-out infinite alternate;
-	animation: four 2s ease-in-out infinite alternate;
+	-webkit-animation: four 2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-moz-animation: four 2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-ms-animation: four 2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-o-animation: four 2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	animation: four 2s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation-fill-mode: both;
 }
 @-webkit-keyframes 
 four { from {
@@ -466,21 +471,22 @@ to { -o-box-shadow: 0 0 100px 15px #F2BBE9; }
 
 @keyframes 
 four { from {
-shadow: 0 0 250px 20px #781848;
+box-shadow: 0 0 250px 20px #781848;
 }
 
-to { shadow: 0 0 100px 15px #F2BBE9; }
+to { box-shadow: 0 0 100px 15px #F2BBE9; }
 }
 
 #five
 {
 	width: 60%;
 	/*animation*/
-	-webkit-animation: five 1s ease-in-out infinite alternate;
-	-moz-animation: five 1s ease-in-out infinite alternate;
-	-ms-animation: five 1s ease-in-out infinite alternate;
-	-o-animation: five 1s ease-in-out infinite alternate;
-	animation: five 1s ease-in-out infinite alternate;
+	-webkit-animation: five 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-moz-animation: five 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-ms-animation: five 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	-o-animation: five 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+	animation: five 1s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation-fill-mode: both;
 }
 @-webkit-keyframes 
 five { from {
