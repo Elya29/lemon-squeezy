@@ -8,6 +8,10 @@ ogImage: true
 bgType: unicorn
 category: notes
 ---
+<audio controls>
+  <source src="/lemon-squeezy/src/audio/hello-world.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
 
 Bienvenue ! Je m'appelle Alex, je suis développeuse, c'est mon métier. Ca veut dire que je fais du code pour fabriquer des sites web et des applications. J'ai créé ce blog pour répondre aux dix mille questions de mon petit garçon de 9 ans sur le code. Il devrait donc aussi répondre aux questions de tous les enfants qui voudraient apprendre l'informatique et la programmation. As-tu envie d'apprendre à programmer ton propre site internet, ou ton jeu vidéo ? Je vais essayer de te guider.
 
