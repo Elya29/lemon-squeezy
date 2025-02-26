@@ -15,7 +15,9 @@ const title = `${SITE.author} @ ${new URL(SITE.website).hostname}`
   >
     <div class="logo-container color-gradient dark:invert">Lemon Squeezy</div>
   </Link>
-  <p class="ml-[2.5em] op-60">La programmation pour les enfants</p>
+  <p class="md:ml-[2.5em] op-60 lt-md:text-center">
+    La programmation pour les enfants
+  </p>
 </div>
 
 <style>
@@ -51,6 +53,13 @@ const title = `${SITE.author} @ ${new URL(SITE.website).hostname}`
 
   .color-gradient:hover {
     background-position: right;
+  }
+
+  @media (max-width: 768px) {
+    .color-gradient {
+      font-size: 1.8em;
+      min-width: auto;
+    }
   }
 
   @media (prefers-reduced-motion), print {
