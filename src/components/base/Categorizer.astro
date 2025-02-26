@@ -15,7 +15,7 @@ const { maxGroupColumns } = UI.groupView
 
 <div
   {...needId ? { id: slug(text) } : {}}
-  class={`toc-heading relative h-20
+  class={`hidden sm:block toc-heading relative h-20
     pointer-events-none select-none
     ${idx !== undefined ? 'slide-enter' : ''}`}
   style={idx !== undefined ? { '--enter-stage': idx - 2 } : undefined}
@@ -39,4 +39,13 @@ const { maxGroupColumns } = UI.groupView
       </span>
     )
   }
+</div>
+
+<!-- Version Mobile -->
+<div class="block sm:hidden relative mt-4 mb-2 pointer-events-none select-none">
+  <span
+    class="text-3xl text-stroke-1 text-stroke-hex-aaa font-bold color-transparent leading-1"
+  >
+    {text}
+  </span>
 </div>
