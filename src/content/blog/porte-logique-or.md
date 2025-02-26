@@ -9,11 +9,17 @@ level: 1
 category: informatique
 ---
 
+Ecoute l'article :
+<audio controls>
+  <source src="/lemon-squeezy/audio/porte-logique-or.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
+
 Prêt à passer une nouvelle porte logique ? Tu te souviens de notre chateau ?
 
 ## Souvenons-nous des règles du jeu...
 
-Cette fois-ci, tu t'approches de la porte OR. Ca veut dire "OU" en Anglais, comment dans "tu veux du gateau **OU** de la glace ?", tu dois choisir, tu n'aura pas les deux. Souviens-toi aussi de ton passeport magique, et que :
+Cette fois-ci, tu t'approches de la porte OR. Ca veut dire "OU" en Anglais, comme dans "tu veux du gateau **OU** de la glace ?", tu dois choisir, tu n'aura pas les deux. Souviens-toi aussi de ton passeport magique, et que :
 - 1 = la lumière est allumée 💡
 - 0 = la lumière est éteinte ❌
 
