@@ -9,6 +9,12 @@ level: 1
 category: programmation
 ---
 
+Ecoute l'article :
+<audio controls>
+  <source src="/lemon-squeezy/audio/langages.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
+
 Certaines personnes parlent en Français, en Anglais, en Espagnol ou tout un tas d'autres langues. Les ordinateurs, c'est exactement pareil, ils ont leurs propres langages, qu'on appelle des **langages informatiques**. C'est que tu vas apprendre à utiliser pour coder.
 
 ## 0 et 1, la langue natale de ton ordinateur.

@@ -8,6 +8,11 @@ ogImage: true
 level: 1
 category: informatique
 ---
+Ecoute l'article :
+<audio controls>
+  <source src="/lemon-squeezy/audio/memoire.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
 
 As-tu une bonne mémoire ? Ton ordinateur, il en a plusieurs ! 
 

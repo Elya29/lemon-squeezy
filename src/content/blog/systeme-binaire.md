@@ -9,6 +9,12 @@ level: 1
 category: informatique
 ---
 
+Ecoute l'article :
+<audio controls>
+  <source src="/lemon-squeezy/audio/systeme-binaire.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
+
 ## Un interrupteur électronique
 
 Un **transistor**, c'est un tout petit composant de ton ordinateur, qui agit comme un bouton qui allume, ou éteint. Il peut donc allumer ou éteindre un courant électrique, un peu comme un interrupteur pour la lumière de ta maison. Mais lui, il est super rapide et très petit ! Il est composé de matières qu'on appelle "semi conductrices", ça signifie qu'il laisse passer le courant électrique uniquement dans un sens. Dans notre histoire de chateau, il serait le gardien de la porte, celui qui décide si ton passeport est valide ou pas en fonction des règles qu'on lui a confiées.
