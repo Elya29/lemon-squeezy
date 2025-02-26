@@ -8,8 +8,10 @@ ogImage: true
 bgType: unicorn
 category: notes
 ---
+
+Ecoute l'article :
 <audio controls>
-  <source src="/lemon-squeezy/src/audio/hello-world.mp3" type="audio/mpeg">
+  <source src="/lemon-squeezy/audio/hello-world.mp3" type="audio/mpeg">
   Votre navigateur ne supporte pas l'élément audio.
 </audio>
 

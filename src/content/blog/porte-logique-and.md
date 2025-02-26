@@ -9,6 +9,12 @@ level: 1
 category: informatique
 ---
 
+Ecoute l'article :
+<audio controls>
+  <source src="/lemon-squeezy/audio/porte-logique-and.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
+
 Pour commencer ton voyage dans le monde de l'informatique, je te propose de découvrir comment fonctionne ton ordinateur. Si tu aimes jouer à Minecraft, tu as peut être déjà entendu parler des portes logiques. Si ce n'est pas le cas, rassure-toi, je vais t'expliquer ce qui se cache derrière ce nom très mystérieux... et tu vas voir que c'est beaucoup plus simple que ça en a l'air !
 
 Imaginons un grand chateau, avec plusieurs portes. A chaque porte, il y a un garde qui décide si tu as le droit d'entrer ou pas. Tu as un passeport magique, qui fonctionne avec des petites lumières, d'accord ? Les lumières de ton passeport sont soit allumées (on va dire que ça fait 1), soit éteintes (on va dire que ça fait 0). Les portes du chateau, ce sont des portes "logiques". Elles sont "logiques", parce qu'elles vont vérifier que les lumières de ton passeport sont bien allumées en fonction de leurs règles, et si ce n'est pas le cas, tu ne pourra pas entrer par cette porte là. Pour allumer les lumières de ton passeport, tu dois respecter certaines conditions, des "règles du jeu", en quelque sorte.
