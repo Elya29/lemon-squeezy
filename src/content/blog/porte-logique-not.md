@@ -9,6 +9,12 @@ level: 1
 category: informatique
 ---
 
+Ecoute l'article :
+<audio controls>
+  <source src="/lemon-squeezy/audio/porte-logique-not.mp3" type="audio/mpeg">
+  Votre navigateur ne supporte pas l'élément audio.
+</audio>
+
 Bon, on commence a pas mal comprendre les règles du jeu, pas vrai ? 
 Voyons quelle porte nous avons là, la porte **NOT**, soit "pas" ou "non" en Français, comme quand tu as pris une glace et que ta mère te dit "**non**, tu n'auras pas de glace avant de manger, remets ça de suite dans le congélateur".
 
