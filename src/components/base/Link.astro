@@ -29,7 +29,7 @@ const relAttr =
   rel || openInNewTab
     ? `${openInNewTab ? 'noopener noreferrer' : ''} ${rel ? rel : ''}`.trim()
     : undefined
-const ariaLabel = title ? title : openInNewTab ? 'Open in new tab' : undefined
+const ariaLabel = title ? title : openInNewTab ? 'Ouvrir dans un nouvel onglet' : undefined
 
 const showCursor =
   openInNewTab &&
@@ -48,7 +48,6 @@ const showIcon =
     { 'external-link-cursor': showCursor },
   ]}
   {href}
-  {title}
   aria-label={ariaLabel}
   rel={relAttr}
   target={targetAttr}

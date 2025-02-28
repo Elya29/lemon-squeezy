@@ -124,7 +124,7 @@ export const rehypePlugins: RehypePlugins = [
           'class': 'header-anchor',
           'tab-index': 0,
           'aria-hidden': 'false',
-          'aria-label': content ? `Link to ${content}` : undefined,
+          'aria-label': content ? `Lien vers ${content}` : undefined,
           'data-pagefind-ignore': true,
         }
       },

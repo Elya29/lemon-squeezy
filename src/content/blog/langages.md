@@ -53,7 +53,7 @@ Si tu voulais programmer un robot, tu t'intéresserais plutôt à Python. Certai
 
 Tu peux tout à fait coder sans écrire ! Il existe plusieurs langages pour faire de la programmation basée sur des blocs.Tu peux utiliser ces blocs pour programmer tes instructions, ce sont comme des petites tuiles qui s'accrochent entre elles comme les pièces d'un puzzle. Scratch te permet de faire ceci, mais ce n'est pas le seul ! Blocky, Tinker ou Makecode sont aussi très connus. Tu peux trouver plusieurs jeux qui te proposent ce genre de programmation en blocs dans les ressources du site (dans le menu tout en haut de la page => "ressources", puis choisis l'onglet "jeux"). Mon préféré, c'est le music lab, qui te permet de coder de la musique avec des blocs. Vraiment génial !
 
-![Aperçu de VEXcode VR](../../assets/langages/codeblocs.png)
+![Aperçu de codeblocs](../../assets/langages/codeblocs.png)
 
 ## Qu'est ce qu'on va apprendre ici ?
 
