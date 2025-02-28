@@ -26,6 +26,8 @@ Par exemple, rien que pour faire une addition, on devrait écrire quelque chose 
 
 😱
 
+![](../../assets/langages/binaire.png)
+
 ## Les cartes perforées, les mamies du code
 
 Il y a très très longtemps, les programmeurs et les programmeuses utilisaient des cartes perforées, qui étaient une forme de langage binaire. Chaque carte était un morceau de carton avec des trous à des endroits précis. Ces trous représentaient des informations que la machine pouvait lire.
@@ -35,9 +37,13 @@ Pas de trou = 0 (on ne lit rien)
 
 Les cartes perforées étaient donc une manière d'écrire des instructions pour faire des programmes, ou de stocker des données sous forme binaire, bien avant les disques durs ! Ce sont les ancètres du code informatique qu'on utilise aujourd'hui.
 
-![Carte perforée, l'ancètre du code informatique](../../assets/langages/carte_perforees.jpg)
+![](../../assets/langages/carte_perforees.jpg)
+
+![](../../assets/langages/cartes.png)
 
 Les cartes perforées ont été utilisées jusque dans les années 1980, pour programmer les premiers ordinateurs.
+
+![](../../assets/langages/eniac.png)
 
 ## Et aujourd'hui ?
 
@@ -47,13 +53,18 @@ Il en existe de très rigolos, qui ne sont pas vraiment fait pour coder mais plu
 
 Chaque langage à sa spécialité. Certains langages sont faits pour parler aux robots, d'autres pour créer des jeux, des sites web ou des applications. Pour créer ton premier site internet, tu vas surtout t'intéresser au HTML5 (pour faire le squelette de ta page) et au CSS3 (pour faire la décoration). Si tu veux animer des choses, faire des jeux, il faudra apprendre aussi le Javascript. Par exemple, pour que tu puisses dessiner sur le fond de la page, j'ai utilisé du Javascript. On peut faire des choses très amusantes avec, mais c'est un petit peu plus compliqué que le HTML et le CSS.
 
+![](../../assets/langages/javascript.png)
+
 Si tu voulais programmer un robot, tu t'intéresserais plutôt à Python. Certains robots comprennent aussi le Javascript.
+
+![](../../assets/langages/robot.png)
+![](../../assets/langages/programmer.png)
 
 ## J'ai pas envie d'écrire, mais je veux coder quand même !
 
 Tu peux tout à fait coder sans écrire ! Il existe plusieurs langages pour faire de la programmation basée sur des blocs.Tu peux utiliser ces blocs pour programmer tes instructions, ce sont comme des petites tuiles qui s'accrochent entre elles comme les pièces d'un puzzle. Scratch te permet de faire ceci, mais ce n'est pas le seul ! Blocky, Tinker ou Makecode sont aussi très connus. Tu peux trouver plusieurs jeux qui te proposent ce genre de programmation en blocs dans les ressources du site (dans le menu tout en haut de la page => "ressources", puis choisis l'onglet "jeux"). Mon préféré, c'est le music lab, qui te permet de coder de la musique avec des blocs. Vraiment génial !
 
-![Aperçu de codeblocs](../../assets/langages/codeblocs.png)
+![](../../assets/langages/codeblocs.png)
 
 ## Qu'est ce qu'on va apprendre ici ?
 
@@ -61,11 +72,17 @@ Je voudrais surtout te proposer du **HTML**, du **CSS** et du **Javascript**, po
 
 On va aussi apprendre a utiliser **les outils** autour du code. Et puis on fera peut être aussi d'autres langages, comme du **Python** ou du **Scratch**.
 
+![](../../assets/langages/vscode.png)
+
 ## De quoi ai-je besoin pour apprendre à coder ?
 
-Si tu as un ordinateur, c'est suffisant ! Les outils dont on va parler ici sont tous gratuits. Il est possible qu'on s'amuse de temps en temps avec un robot ou un bras robotisé. Si tu n'as pas de robot chez toi, tu peux utiliser des outils qu'on appelle des "simulateurs", comme [VEXcode VR](https://vr.vex.com/) que tu peux utiliser en ligne, ou [Webots](https://cyberbotics.com/#webots), qui se télécharge sur ton ordinateur. Ils te permettent de programmer un robot directement sur ton ordinateur, même si tu n'as pas de robot !
+Si tu as un ordinateur, c'est suffisant ! Les outils dont on va parler ici sont tous gratuits. Il est possible qu'on s'amuse de temps en temps avec un robot ou un bras robotisé.
 
-![Aperçu de VEXcode VR](../../assets/langages/vexcode-vr.png)
+![](../../assets/langages/bras.png)
+
+Si tu n'as pas de robot chez toi, tu peux utiliser des outils qu'on appelle des "simulateurs", comme [VEXcode VR](https://vr.vex.com/) que tu peux utiliser en ligne, ou [Webots](https://cyberbotics.com/#webots), qui se télécharge sur ton ordinateur. Ils te permettent de programmer un robot directement sur ton ordinateur, même si tu n'as pas de robot !
+
+![](../../assets/langages/vexcode-vr.png)
 
 ## Il y a beaucoup d'Anglais 😱
 
