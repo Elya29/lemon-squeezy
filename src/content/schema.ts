@@ -147,7 +147,16 @@ export const postSchema = z.object({
       'Specifies whether to apply a background on this page and select its type. If not needed, delete the field or set to `false`.'
     ),
   category: z.z
-    .enum(['informatique', 'programmation', 'langages', 'notes', 'challenges'])
+    .enum([
+      'matériel',
+      'code',
+      'langages',
+      'notes',
+      'challenges',
+      'html',
+      'CSS',
+      'Javascript',
+    ])
     .default('notes')
     .describe(
       'Specifies the category of the post. It will be filtered by category in the "parcours". If not needed, delete the field or set to `false`.'

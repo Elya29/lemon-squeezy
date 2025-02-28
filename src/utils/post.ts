@@ -82,9 +82,12 @@ export const groupByCategory = (
 }
 
 export const categoryOrder = [
-  'informatique',
+  'matériel',
   'langages',
-  'programmation',
+  'code',
+  'html',
+  'CSS',
+  'Javascript',
   'challenges',
   'notes',
 ] as const
