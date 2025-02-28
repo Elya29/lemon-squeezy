@@ -28,12 +28,7 @@ const satoriOptions: SatoriOptions = {
   ],
 }
 
-async function generateOgImage(
-  authorOrBrand: string,
-  title: string,
-  bgType: BgType,
-  output: string
-) {
+async function generateOgImage(title: string, bgType: BgType, output: string) {
   await mkdir(dirname(output), { recursive: true })
 
   console.log(
@@ -41,7 +36,7 @@ async function generateOgImage(
   )
 
   try {
-    const node = ogImageMarkup(authorOrBrand, title, bgType)
+    const node = ogImageMarkup(title, bgType)
     unescapeHTML(node)
 
     const svg = await satori(node, satoriOptions)
@@ -72,7 +67,7 @@ function remarkGenerateOgImage() {
   const ogImage = FEATURES.ogImage
   if (!(Array.isArray(ogImage) && ogImage[0])) return
 
-  const { authorOrBrand, fallbackTitle, fallbackBgType } = ogImage[1]
+  const { fallbackTitle, fallbackBgType } = ogImage[1]
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
@@ -80,7 +75,6 @@ function remarkGenerateOgImage() {
     // regenerate fallback
     if (!checkFileExistsInDir('public/og-images', 'og-image.png')) {
       await generateOgImage(
-        authorOrBrand,
         fallbackTitle,
         fallbackBgType,
         'public/og-images/og-image.png'
@@ -136,7 +130,6 @@ function remarkGenerateOgImage() {
 
     // generate og images
     await generateOgImage(
-      authorOrBrand,
       title.trim(),
       bgType,
       `public/og-images/${nameWithoutExt}.png`

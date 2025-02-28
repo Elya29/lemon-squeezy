@@ -2,8 +2,9 @@ import { html } from 'satori-html'
 import backgroundBase64 from './base64'
 import type { BgType } from '../../src/types'
 
-export const ogImageMarkup = (title: string, bgType: BgType) => {
-  if (!['plum', 'dot', 'rose', 'particle', 'unicorn'].includes(bgType))
+export const ogImageMarkup = (title: string, bgType?: BgType) => {
+  const background = bgType ?? 'unicorn'
+  if (!['plum', 'dot', 'rose', 'particle', 'unicorn'].includes(background))
     throw new Error(
       "The value of 'bgType' must be one of the following: 'plum', 'dot', 'rose', 'particle', 'unicorn'."
     )
@@ -14,7 +15,7 @@ export const ogImageMarkup = (title: string, bgType: BgType) => {
   >
     <img
       tw="absolute inset-0 w-full h-full"
-      src=${backgroundBase64[bgType]}
+      src=${backgroundBase64[background]}
       alt="open graph"
     />
 
