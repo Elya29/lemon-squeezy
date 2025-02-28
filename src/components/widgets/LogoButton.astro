@@ -28,15 +28,12 @@ const title = `${SITE.author} @ ${new URL(SITE.website).hostname}`
   }
 
   .color-gradient {
+    font-size: 3em;
     font-family: 'Atma', sans-serif;
     min-width: 350px;
-    background-clip: text;
     text-align: center;
-    font-size: 3em;
     color: transparent;
-    transition-property: all;
-    transition-duration: 0.7s;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-clip: text;
     background-image: linear-gradient(
       to right,
       #020617,
@@ -51,24 +48,21 @@ const title = `${SITE.author} @ ${new URL(SITE.website).hostname}`
     background-position: top left 70%;
   }
 
-  .color-gradient:hover {
-    background-position: right;
-  }
+  @media (prefers-reduced-motion: no-preference) {
+    .color-gradient {
+      transition-property: all;
+      transition-duration: 0.7s;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+    .color-gradient:hover {
+      background-position: right;
+    }
+  }
   @media (max-width: 768px) {
     .color-gradient {
       font-size: 1.8em;
       min-width: auto;
-    }
-  }
-
-  @media (prefers-reduced-motion), print {
-    .color-gradient {
-      transition-property: all;
-      transition-duration: 0.7s;
-      :hover {
-        background-position: left;
-      }
     }
   }
 </style>
