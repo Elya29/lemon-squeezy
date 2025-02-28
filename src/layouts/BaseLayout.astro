@@ -71,6 +71,7 @@ if (hasCustomCursor) style['--external-link-cursor'] = cursorType
     <NavBar />
     <main id="main" class="px-7 py-10 pb-[200px]">
       <slot />
+      <p>Astro pathname: {Astro.url.pathname}</p>
       {
         Astro.url.pathname !== getUrl('/') && (
           <footer class="slide-enter animate-delay-1000! prose mx-auto mt-8 print:hidden">
