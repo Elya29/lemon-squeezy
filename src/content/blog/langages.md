@@ -47,7 +47,7 @@ Il en existe de très rigolos, qui ne sont pas vraiment fait pour coder mais plu
 
 Chaque langage à sa spécialité. Certains langages sont faits pour parler aux robots, d'autres pour créer des jeux, des sites web ou des applications. Pour créer ton premier site internet, tu vas surtout t'intéresser au HTML5 (pour faire le squelette de ta page) et au CSS3 (pour faire la décoration). Si tu veux animer des choses, faire des jeux, il faudra apprendre aussi le Javascript. Par exemple, pour que tu puisses dessiner sur le fond de la page, j'ai utilisé du Javascript. On peut faire des choses très amusantes avec, mais c'est un petit peu plus compliqué que le HTML et le CSS.
 
-Si tu voulais coder un robot, tu t'intéresserais plutôt à Python. Certains robots comprennent aussi le Javascript.
+Si tu voulais programmer un robot, tu t'intéresserais plutôt à Python. Certains robots comprennent aussi le Javascript.
 
 ## J'ai pas envie d'écrire, mais je veux coder quand même !
 
