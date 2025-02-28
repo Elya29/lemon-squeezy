@@ -70,12 +70,19 @@ if (hasCustomCursor) style['--external-link-cursor'] = cursorType
     </Link>
     <NavBar />
     <main id="main" class="px-7 py-10 pb-[200px]">
+      {
+        Astro.url.pathname !== getUrl('/') && (
+          <div class="prose mx-auto mt-8 pb-3 print:hidden">
+            <BackLink />
+          </div>
+        )
+      }
       <slot />
       {
         Astro.url.pathname !== getUrl('/') && (
           <footer class="slide-enter animate-delay-1000! prose mx-auto mt-8 print:hidden">
-            <slot name="share" />
-            <br />
+            {/* <slot name="share" />
+            <br /> */}
             <BackLink />
           </footer>
         )
