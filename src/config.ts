@@ -2,7 +2,7 @@ import type { Site, Ui, Features, Url } from './types'
 
 export const SITE: Site = {
   website: 'https://elya29.github.io',
-  base: '/lemon-squeezy',
+  base: '/lemon-squeezy/',
   title: 'Lemon Squeezy',
   description: 'La programmation pour les enfants',
   author: 'Alex Palma',
