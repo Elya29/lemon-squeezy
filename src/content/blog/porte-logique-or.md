@@ -19,7 +19,11 @@ Prêt à passer une nouvelle porte logique ? Tu te souviens de notre chateau ?
 
 ## Souvenons-nous des règles du jeu...
 
-Cette fois-ci, tu t'approches de la porte OR. Ca veut dire "OU" en Anglais, comme dans "tu veux du gateau **OU** de la glace ?", tu dois choisir, tu n'aura pas les deux. Souviens-toi aussi de ton passeport magique, et que :
+Cette fois-ci, tu t'approches de la porte OR. Ca veut dire "OU" en Anglais, comme dans "tu veux du gateau **OU** de la glace ?", tu dois choisir, tu n'aura pas les deux. 
+
+![](../../assets/porte-logique-or/or.png)
+
+Souviens-toi aussi de ton passeport magique, et que :
 - 1 = la lumière est allumée 💡
 - 0 = la lumière est éteinte ❌
 
@@ -33,6 +37,8 @@ Admettons donc que tu veuilles aller dans le parc du chateau. Pour passer la por
 - ton chien a besoin de faire pipi (1 / 0)
 
 **Si au moins l'une des deux choses est vraie**, tu peux aller dans le parc du chateau. Si aucune n'est vraie, tu ne peux pas.
+
+![](../../assets/porte-logique-or/porte-or.png)
 
 Si :
 - tu as fini tes devoirs (1) 💡 
@@ -55,6 +61,7 @@ Si :
 
 **=> les deux conditions sont remplies, donc tu peux passer aussi (1)** 💡
 
+
 ## Alors, c'est oui ou c'est non ?
 
 Je t'ai fait un tableau pour bien comprendre les conditions (les entrées, ou "**inputs**"), et leur effet sur le résultat (la sortie, ou "**output**") :
@@ -66,10 +73,13 @@ Je t'ai fait un tableau pour bien comprendre les conditions (les entrées, ou "*
 | 0             | 0           | 0                      |
 | 1             | 1           | 1                      |
 
+![](../../assets/porte-logique-or/input-output.png)
 
 Souviens-toi que 1 = OUI (ou "true", qui signifie "vrai" en Anglais), et 0 = NON (ou "false", qui signifie "faux" en Anglais). Tu fais le lien avec les lumières allumées (1) et éteintes (0) ? 
 
 Ca veut dire qu'avec une petite lumière allumée ou éteinte, on peut créer de la logique ! Et c'est exactement ce que fait ton ordinateur, pas avec des lumières (ce serait joli pourtant !) mais avec des courants électriques. Quand c'est 1, le courant passe, quand c'est 0, le courant ne passe pas.
+
+![](../../assets/porte-logique-or/on-off.png)
 
 Avec toutes nos portes logiques, on peut créer des circuits compliqués, qui vérifient beaucoup de conditions.
 
@@ -82,6 +92,8 @@ Et quand on a le choix entre OUI et NON (ou VRAI et FAUX, c'est pareil), c'est c
 Eh bien non, ce n'est pas du code ! En réalité, les portes logiques, ça vient de l'électronique. Ce sont des pièces dans ton ordinateur qui se servent des signaux électriques pour effectuer des opérations logiques de base, comme on vient de le faire. 
 
 Ce sont des circuits électroniques très simples qui peuvent être créés à l'aide de composants comme des **transistors**. Les transistors sont comme de petits interrupteurs (un bouton pour allumer et éteindre), permettant ou bloquant le passage du courant électrique, en fonction des conditions (les "entrées" du circuit). Tu peux en fabriquer facilement dans Minecraft avec de la Red Stone ! Si tu ne connais pas Minecraft, tu peux en parler avec tes parents. C'est un jeu vraiment très bien pour apprendre la logique de la programmation.
+
+![](../../assets/porte-logique-or/transistor-red-stone.webp)
 
 Dans le monde de la programmation, il existe des logiques très proches qui sont utilisées pour vérifier des conditions dans le code. Par exemple, quand tu veux qu'un utilisateur puisse accéder à ton site web seulement si son mot de passe est correct, tu pourrais utiliser une logique **OR** pour valider l'accès.
 

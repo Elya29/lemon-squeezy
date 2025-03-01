@@ -17,11 +17,17 @@ Ecoute l'article :
 
 Pour commencer ton voyage dans le monde de l'informatique, je te propose de découvrir comment fonctionne ton ordinateur. Si tu aimes jouer à Minecraft, tu as peut être déjà entendu parler des portes logiques. Si ce n'est pas le cas, rassure-toi, je vais t'expliquer ce qui se cache derrière ce nom très mystérieux... et tu vas voir que c'est beaucoup plus simple que ça en a l'air !
 
-Imaginons un grand chateau, avec plusieurs portes. A chaque porte, il y a un garde qui décide si tu as le droit d'entrer ou pas. Tu as un passeport magique, qui fonctionne avec des petites lumières, d'accord ? Les lumières de ton passeport sont soit allumées (on va dire que ça fait 1), soit éteintes (on va dire que ça fait 0). Les portes du chateau, ce sont des portes "logiques". Elles sont "logiques", parce qu'elles vont vérifier que les lumières de ton passeport sont bien allumées en fonction de leurs règles, et si ce n'est pas le cas, tu ne pourra pas entrer par cette porte là. Pour allumer les lumières de ton passeport, tu dois respecter certaines conditions, des "règles du jeu", en quelque sorte.
+Imaginons un grand chateau, avec plusieurs portes. A chaque porte, il y a un garde qui décide si tu as le droit d'entrer ou pas. 
+
+![](../../assets/porte-logique-and/chateau.png)
+
+Tu as un passeport magique, qui fonctionne avec des petites lumières, d'accord ? Les lumières de ton passeport sont soit allumées (on va dire que ça fait 1), soit éteintes (on va dire que ça fait 0). 
+
+![](../../assets/systeme-binaire/passeport.png)
+
+Les portes du chateau, ce sont des portes "logiques". Elles sont "logiques", parce qu'elles vont vérifier que les lumières de ton passeport sont bien allumées en fonction de leurs règles, et si ce n'est pas le cas, tu ne pourra pas entrer par cette porte là. Pour allumer les lumières de ton passeport, tu dois respecter certaines conditions, des "règles du jeu", en quelque sorte.
 
 Chaque porte logique possède ses propres règles.
-
-![](../../assets/porte-logique-and/chateau.webp)
 
 ## À quoi ça sert ?
 
@@ -31,7 +37,15 @@ Il y a plusieurs types de portes logiques. Je t'explique la première, et ensuit
 
 ### La porte AND (ET)
 
-Sur la première porte de notre chateau, il y a un panneau qui indique **"AND"**. Ca veut dire "ET" en Anglais, comme dans "de la vanille **ET** du chocolat" quand tu commandes une glace. Imaginons que tu veuilles livrer des légumes aux cuisines du chateau, mais pour pouvoir passer la porte logique de la cuisine, il y a deux conditions :
+Sur la première porte de notre chateau, il y a un panneau qui indique **"AND"**. 
+
+![](../../assets/porte-logique-and/porte-and.png)
+
+Ca veut dire "ET" en Anglais, comme dans "de la vanille **ET** du chocolat" quand tu commandes une glace. 
+
+![](../../assets/porte-logique-and/glace.png)
+
+Imaginons que tu veuilles livrer des légumes aux cuisines du chateau, mais pour pouvoir passer la porte logique de la cuisine, il y a deux conditions :
 
 - 🍅 Tu dois avoir des tomates bien mures (tu en as? la première lumière s'allume : 1)
 - 🥕 Tu dois aussi avoir des carottes (c'est ok? la seconde lumière s'allume : 1)
@@ -39,10 +53,15 @@ Sur la première porte de notre chateau, il y a un panneau qui indique **"AND"**
 Si ces deux choses sont vraies, alors tu vas pouvoir passer la porte de la cuisine.
 Si une seule ou les deux sont fausses (par exemple, s'il n'y avait plus de tomates ou si tu n'as pas trouvé de carottes), ton passeport n'est pas valide (0) et tu ne pourra pas passer la porte logique.
 
+![](../../assets/porte-logique-and/conditions.png)
+
 **Règle :** La porte ET dit "on entre dans les cuisines seulement **si ces deux choses sont vraies**".
 
 - Si tes deux lumières sont allumées (1), alors ton passeport est valide et la porte s'ouvre (1).
+![](../../assets/porte-logique-and/valide.png)
+
 - Si l'une des deux lumières est éteinte (0), alors ton passeport n'est pas valide et la porte reste fermée (0).
+![](../../assets/porte-logique-and/invalide.png)
 
 Et voilà, tu connais les règles de ta première porte logique, félicitations !
 
